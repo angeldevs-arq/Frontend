@@ -1,0 +1,275 @@
+{
+  "header": {
+    "dashboard": "Inicio",
+    "events": "Eventos",
+    "task": "Tareas",
+    "quotes": "Cotizaciones",
+    "messages": "Mensajes",
+    "profile": "Perfil",
+    "albums": "Álbumes",
+    "chat": "Chat"
+  },
+  "common": {
+    "settings": "Configuración",
+    "language": "Idioma",
+    "goHome": "Ir al inicio",
+    "goBack": "Volver atrás",
+    "create": "Crear",
+    "update": "Actualizar",
+    "loading": "Cargando...",
+    "actions": "Acciones",
+    "viewDetails": "Ver detalles",
+    "noData": "No hay datos disponibles",
+    "back": "Volver",
+    "cancel": "Cancelar",
+    "add": "Agregar",
+    "save": "Guardar",
+    "edit": "Editar",
+    "delete": "Eliminar",
+    "confirm": "Confirmar",
+    "close": "Cerrar"
+  },
+  "errors": {
+    "pageNotFound": "Página no encontrada",
+    "pageNotFoundDescription": "La página que estás buscando no existe o ha sido movida.",
+    "fetchError": "Ocurrió un error al obtener los datos.",
+    "saveError": "Ocurrió un error al guardar.",
+    "deleteError": "Ocurrió un error al eliminar."
+  },
+  "profile": {
+    "title": "Perfil del Organizador",
+    "editTitle": "Editar Perfil del Organizador",
+    "description": "Administra tu información personal y profesional.",
+    "name": "Nombre",
+    "specialty": "Especialidad",
+    "location": "Ubicación",
+    "about": "Sobre mí",
+    "editProfileButton": "Editar Perfil",
+    "updateSuccess": "Perfil actualizado con éxito",
+    "updateError": "Error al actualizar el perfil",
+    "noDescription": "Este organizador aún no tiene descripción."
+  },
+  "albums": {
+    "title": "Álbumes",
+    "createTitle": "Crear Álbum",
+    "editTitle": "Editar Álbum",
+    "detailsTitle": "Detalles del Álbum",
+    "emptyMessage": "Este organizador no tiene álbumes todavía.",
+    "createButton": "Crear Álbum",
+    "editButton": "Editar",
+    "deleteButton": "Eliminar",
+    "albumName": "Nombre del Álbum",
+    "albumDescription": "Descripción del Álbum",
+    "coverImage": "Imagen de Portada",
+    "saveSuccess": "Álbum guardado con éxito",
+    "deleteSuccess": "Álbum eliminado con éxito",
+    "noDescription": "Sin descripción"
+  },
+  "chat": {
+    "title": "Chat con Clientes",
+    "emptyMessage": "No hay conversaciones activas.",
+    "sendMessage": "Enviar mensaje",
+    "placeholder": "Escribe tu mensaje...",
+    "messageSent": "Mensaje enviado con éxito",
+    "messageError": "Error al enviar el mensaje"
+  },
+  "eventManagement": {
+    "pageTitle": "Gestión de Eventos",
+    "actions": {
+      "selectAll": "Seleccionar todo",
+      "deleteSelected": "Eliminar seleccionados ({count})",
+      "search": "Buscar eventos...",
+      "newEvent": "Nuevo Evento",
+      "cancel": "Cancelar",
+      "delete": "Eliminar"
+    },
+    "filters": {
+      "all": "Todos los estados",
+      "active": "Activos",
+      "pending": "Pendientes",
+      "cancelled": "Cancelados"
+    },
+    "sort": {
+      "recent": "Más recientes",
+      "oldest": "Más antiguos",
+      "title": "Por título"
+    },
+    "pagination": {
+      "showing": "Mostrando",
+      "of": "de",
+      "previous": "Anterior",
+      "next": "Siguiente"
+    },
+    "confirmation": {
+      "title": "Confirmar eliminación",
+      "message": "¿Está seguro de eliminar {count} evento(s)? Esta acción no se puede deshacer."
+    },
+    "messages": {
+      "noEvents": "No hay eventos disponibles"
+    },
+    "status": {
+      "active": "Activo",
+      "toBeConfirmed": "Por confirmar",
+      "cancelled": "Cancelado"
+    }
+  },
+  "quotes": {
+    "page": {
+      "title": "Cotizaciones",
+      "subtitle": "Gestiona todas tus cotizaciones de eventos"
+    },
+    "list": {
+      "searchPlaceholder": "Buscar cotizaciones...",
+      "filterAll": "Todos",
+      "sortRecent": "Más recientes",
+      "newQuote": "Nueva Cotización",
+      "customer": "Cliente",
+      "event": "Evento",
+      "date": "Fecha",
+      "amount": "Monto",
+      "state": "Estado",
+      "actions": "Acciones",
+      "view": "Ver",
+      "edit": "Editar",
+      "noQuotes": "No hay cotizaciones disponibles"
+    },
+    "filters": {
+      "all": "Todos",
+      "approved": "Aprobadas",
+      "pending": "Pendientes",
+      "declined": "Rechazadas",
+      "draft": "Borradores"
+    },
+    "sort": {
+      "recent": "Más recientes",
+      "oldest": "Más antiguas",
+      "amountHigh": "Monto mayor",
+      "amountLow": "Monto menor"
+    },
+    "states": {
+      "draft": "Borrador",
+      "pending": "Pendiente",
+      "approved": "Aprobada",
+      "declined": "Rechazada"
+    },
+    "form": {
+      "createTitle": "Crear Nueva Cotización",
+      "editTitle": "Editar Cotización",
+      "basicInfo": "Información Básica",
+      "customer": "Cliente",
+      "customerPlaceholder": "Nombre del cliente",
+      "eventType": "Tipo de Evento",
+      "selectType": "Seleccionar tipo",
+      "eventDate": "Fecha del Evento",
+      "datePlaceholder": "DD/MM/AAAA",
+      "numberOfGuests": "Número de Invitados",
+      "guestsPlaceholder": "Cantidad",
+      "location": "Ubicación",
+      "locationPlaceholder": "Lugar del evento"
+    },
+    "services": {
+      "title": "Servicios Incluidos",
+      "addService": "Agregar Servicio",
+      "addNewService": "Agregar Nuevo Servicio",
+      "description": "Descripción",
+      "descriptionPlaceholder": "Nombre del servicio",
+      "quantity": "Cantidad",
+      "unitPrice": "Precio Unitario",
+      "total": "Total",
+      "noServices": "No hay servicios agregados",
+      "services": "servicios"
+    },
+    "financial": {
+      "title": "Resumen Financiero",
+      "subtotal": "Subtotal",
+      "vat": "IGV",
+      "total": "Total",
+      "services": "servicios",
+      "paymentTerms": "Términos de pago: 50% adelanto, 50% al finalizar"
+    },
+    "actions": {
+      "title": "Acciones",
+      "save": "Guardar",
+      "preview": "Vista Previa",
+      "send": "Enviar",
+      "cancel": "Cancelar",
+      "currentState": "Estado actual",
+      "lastUpdate": "Última actualización"
+    },
+    "preview": {
+      "title": "Vista Previa de Cotización",
+      "quotation": "Cotización",
+      "for": "PARA",
+      "event": "EVENTO",
+      "date": "Fecha",
+      "location": "Ubicación",
+      "guests": "Invitados",
+      "tel": "Tel",
+      "editAgain": "Editar de Nuevo",
+      "saveAndSend": "Guardar y Enviar"
+    }
+  },
+  "events": {
+    "types": {
+      "wedding": "Boda",
+      "conference": "Conferencia",
+      "corporate_party": "Fiesta Corporativa",
+      "baby_shower": "Baby Shower",
+      "graduation": "Graduación",
+      "birthday": "Cumpleaños",
+      "fifteen_years": "Quinceaños",
+      "other": "Otro"
+    }
+  },
+  "tasks": {
+    "status": {
+      "todo": "Por Hacer",
+      "inprogress": "En Progreso",
+      "done": "Completada",
+      "cancelled": "Cancelada"
+    }
+  },
+  "messaging": {
+    "messages": "Mensajes",
+    "online": "En línea",
+    "offline": "Desconectado",
+    "typing": "escribiendo...",
+    "typeMessage": "Escribe un mensaje...",
+    "send": "Enviar",
+    "newChat": "Nuevo chat",
+    "searchConversations": "Buscar conversaciones...",
+    "noConversations": "No tienes conversaciones",
+    "startConversation": "Iniciar conversación",
+    "selectConversation": "Selecciona una conversación",
+    "selectConversationDescription": "Elige una conversación de la lista o inicia una nueva",
+    "backToList": "Volver a la lista",
+    "noMessages": "No hay mensajes aún",
+    "messageSent": "Mensaje enviado",
+    "messageError": "Error al enviar mensaje",
+    "loadingMessages": "Cargando mensajes..."
+  },
+  "dashboard": {
+    "welcome": "Bienvenido, {name}",
+    "activitySummary": "Resumen de tu actividad",
+    "seeAll": "Ver todo",
+    "viewAll": "Ver todo",
+    "metrics": {
+      "activeEvents": {
+        "title": "Eventos Activos",
+        "subtitle": "{count} eventos esta semana"
+      },
+      "pendingTasks": {
+        "title": "Tareas Pendientes",
+        "subtitle": "{count} ganan hoy"
+      },
+      "quotes": {
+        "title": "Cotizaciones",
+        "subtitle": "{count} nueva esta semana"
+      }
+    },
+    "recentMessages": {
+      "title": "Mensajes Recientes",
+      "seeAll": "Ver todos"
+    }
+  }
+}
